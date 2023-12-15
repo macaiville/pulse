@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: radial-gradient(darkred, black);
+    overflow: scroll;
+}
+
+/* Top nav start */
+
+.top-nav {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+}
+h1 {
+    color: darkred;
+    font-size: 50px;
+}
+.top-nav-content {
+    font-size: 20px;
+}
+.top-nav-content>a {
+    text-decoration: none;
+    color: white;
+    padding-left: 40px;
+}
+
+/* Top nav end */
+
+/* Main section start */
+.main {
+    width: 1500px;
+    margin: 0 auto;
+}
+.chestAndShoulders {
+    display: flex;
+    align-items: center;
+    
+}
+.chestAndShoulders>button {
+    font-size: 90px;
+    flex: 1;
+    margin-top: 50px;
+    padding: 100px;
+    background-image: linear-gradient(black, white);
+}
+
+
+
+
+/* Main section end */
