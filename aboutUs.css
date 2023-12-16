@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kalnia', serif;
+}
+
+body {
+    background-image: radial-gradient(circle,#dc3123, #d3cfcf, #95150a);
+}
+h1 {
+    /* background-color: black; */
+    padding: 10px;
+    color: darkred;
+    font-size: 80px;
+    text-align: center;
+}
+.about {
+    color: white;
+    width: 700px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 30px;
+}
+.about>a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    font-size: 50px;
+    color: white;
+    background-color: #36454f;
+    /* border: 5px solid black; */
+
+}
+.par1 {
+    margin-bottom: 20px;
+}
